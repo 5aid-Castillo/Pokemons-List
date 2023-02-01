@@ -1,0 +1,33 @@
+
+.pokemon{
+    
+    padding: 3rem;
+    /* 
+    margin: 1rem 2rem; */
+    background-color: #E6E6E6;
+    border-radius: 10px;
+    border: medium solid var(--black-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.pokemon figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+    text-transform: uppercase;
+}
+
+.pokemon img{
+    
+    width: 12rem;
+    height: 12rem;
+    
+}
+
+.poke-button img{
+    width: 20px;
+    height: 20px;
+}
+
